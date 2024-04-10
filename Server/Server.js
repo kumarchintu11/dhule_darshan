@@ -8,7 +8,6 @@ app.get('/',(req,res)=>{
     res.send("Hello from server")
 })
 
-
 app.post('/login',async (req,res)=>{
     console.log(req.body);
     res.send("Login")
