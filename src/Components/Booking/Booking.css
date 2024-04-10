@@ -1,0 +1,15 @@
+.ParentConatiner{
+    display: flex;
+    gap: 1pc;
+    justify-content: center;
+}
+
+.Cards img:hover{
+    z-index: 2;
+    background-color: rgb(128, 128, 128);
+}
+
+.Cards{
+    display: flex;
+    flex-direction: column;
+}
